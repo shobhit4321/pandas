@@ -1,0 +1,17 @@
+
+import pandas as pd
+import numpy as np
+
+# intialise data of lists.
+data = {'Name':[1, 'nick', 'krish', 'jack'],
+        'Age':np.array([20, 21, 19, 18])}
+
+ 
+# Create DataFrame
+df = pd.DataFrame(data)
+ 
+# Print the output.
+
+df=df.set_index(['Name','Age'])
+
+df
