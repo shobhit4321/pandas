@@ -1,0 +1,3 @@
+dates = pd.date_range('20130101', periods=6)# output is period of date from the given date 
+df = pd.DataFrame(np.random.randn(6, 4), index=dates, columns=list('ABCD')) 
+df #output is random matrix with the index as argument given and coulms name as argument given.
