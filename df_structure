@@ -1,0 +1,18 @@
+# Python code demonstrate creating 
+# DataFrame from dict narray / lists 
+# By default addresses.
+def a(n,m): 
+
+ import pandas as pd
+ import numpy as np
+ import string
+
+ df = pd.DataFrame(np.random.rand(n,m),index=pd.date_range('20130214',periods=n),columns=[ string.ascii_lowercase[i]  for i in  range(m)])
+ 
+
+ # Print the output.
+
+
+
+ return df
+a(4,10)
