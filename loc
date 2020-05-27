@@ -1,0 +1,4 @@
+df.loc['cobra':'viper', 'max_speed']
+cobra    1
+viper    4
+Name: max_speed, dtype: int64  # ':' is used to select 2 columns togather
